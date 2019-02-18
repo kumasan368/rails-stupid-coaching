@@ -1,0 +1,15 @@
+<div class="container">
+<h1>Frog 'What are you gonna do?'</h1>
+</div>
+
+<div class="container">
+<%= image_tag("frog.jpg", height: 300, width: 400) %>
+</div>
+
+<div class="container" id="input">
+<form action="/answer" method="get">
+  <input type="text" name="user_plan" placeholder="Tell your plan">
+  <input type="submit" value="Ask him" class="sub">
+</form>
+
+</div>

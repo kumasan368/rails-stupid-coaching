@@ -1,0 +1,17 @@
+<div class="container">
+  <h3>The frog</h2>
+</div>
+
+<div class="container" id="img">
+<%= image_tag("frog.jpg", height: 300, width: 400) %>
+</div>
+
+<div class="container">
+<h2>The frog said...'<%= @answer %>'</h2>
+</div>
+
+<div class="container">
+<%= link_to "Ask him again", ask_path, class: "btn" %>
+</div>
+
+
